@@ -22,3 +22,9 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+json-server --watch db.json
+
+It’s important to note that it is recommended to always commit a Mutation from within an Action.
+
