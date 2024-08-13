@@ -57,7 +57,7 @@ export default {
   methods: {
     createEvent() {
       this.$store
-        .dispatch("createEvent", this.event)
+        .dispatch("events/createEvent", this.event)
         .then(() => {
           this.$router.push({
             name: "event-show",

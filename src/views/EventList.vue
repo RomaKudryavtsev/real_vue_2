@@ -29,7 +29,7 @@ export default {
     EventCard,
   },
   created() {
-    this.$store.dispatch("fetchEvents", {
+    this.$store.dispatch("events/fetchEvents", {
       perPage: perPage,
       page: this.page,
     });
