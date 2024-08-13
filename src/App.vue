@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 20px 0 0 0;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -65,7 +65,7 @@ h6 {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 35px;
   font-weight: 700;
 }
 
