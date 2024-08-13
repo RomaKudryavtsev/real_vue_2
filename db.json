@@ -245,6 +245,90 @@
       "date": "2024-07-26T13:22:00.000Z",
       "time": "15:00",
       "attendees": []
+    },
+    {
+      "id": 3744201,
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Roman"
+      },
+      "title": "New Event",
+      "description": "Event description",
+      "location": "Haifa",
+      "date": "2024-08-23T12:00:00.000Z",
+      "time": "17:00",
+      "attendees": []
+    },
+    {
+      "id": 4438726,
+      "category": "sustainability",
+      "organizer": {
+        "id": "abc123",
+        "name": "Roman"
+      },
+      "title": "qwert",
+      "description": "qwer",
+      "location": "qwer",
+      "date": "2024-08-06T12:03:00.000Z",
+      "time": "21:00",
+      "attendees": []
+    },
+    {
+      "id": 4954009,
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Roman"
+      },
+      "title": "фвыарьр",
+      "description": "выфар",
+      "location": "выфапь",
+      "date": "2024-08-06T12:07:00.000Z",
+      "time": "20:00",
+      "attendees": []
+    },
+    {
+      "id": 1508258,
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Roman"
+      },
+      "title": "выфарб",
+      "description": "вфаыпь",
+      "location": "выфат",
+      "date": "2024-08-07T12:08:00.000Z",
+      "time": "20:00",
+      "attendees": []
+    },
+    {
+      "id": 6339887,
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Roman"
+      },
+      "title": "ывап",
+      "description": "авыпар",
+      "location": "авыпра",
+      "date": "2024-08-05T12:09:00.000Z",
+      "time": "14:00",
+      "attendees": []
+    },
+    {
+      "id": 9047428,
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Roman"
+      },
+      "title": "ыфвпрео",
+      "description": "уцйкен",
+      "location": "цуйкр",
+      "date": "2024-08-26T12:10:00.000Z",
+      "time": "14:00",
+      "attendees": []
     }
   ]
 }

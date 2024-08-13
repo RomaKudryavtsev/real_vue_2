@@ -56,18 +56,13 @@ export default {
   },
   methods: {
     createEvent() {
-      this.$store
-        .dispatch("events/createEvent", this.event)
-        .then(() => {
-          this.$router.push({
-            name: "event-show",
-            params: { id: this.event.id },
-          });
-          this.event = this.createFreshEventObject();
-        })
-        .catch(() => {
-          console.log("There was a problem creating your event.");
+      this.$store.dispatch("events/createEvent", this.event).then(() => {
+        this.$router.push({
+          name: "event-show",
+          params: { id: this.event.id },
         });
+        this.event = this.createFreshEvent();
+      });
     },
     createFreshEvent() {
       const user = this.$store.state.user.user;
